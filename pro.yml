@@ -1,0 +1,10 @@
+READ INSTRUCTIONS
+1) #kubectl create namespace monitoring
+2) run clusterrole.yml file
+3) run config-map.yml file
+4) run prometheus-deployment.yaml file
+5) run kubectl get pods -n monitoring
+6) run service.yaml file
+7) go to folder kube-system-metrics-configs
+8) kubectl apply -f .
+
